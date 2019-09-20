@@ -11,27 +11,27 @@
 	<form action ="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post"></form>
 		<fieldset>
 			<legend>
-				My Info
+				<strong>My Info</strong>
 			</legend>
 			<label>
-				First name: <input type="text" name="first_name_field">
+				First name: <input type="text" name="first_name_field"><br>
 			</label>
 			<label>
-				Last Name: <input type="text" name="last_name_field">
+				Last Name: <input type="text" name="last_name_field"><br>
 			</label>
 			<label>
-				Phone Number: <input type="text" name="phone_field">
+				Phone Number: <input type="text" name="phone_field"><br>
 			</label>
 			<label>
-				Email Address: <input type="text" name="email_field">
+				Email Address: <input type="text" name="email_field"><br>
 			</label>
 			<label>
 				Gender: 
-				<input type="radio" name="gender_field" value="male"> Male
-				<input type="radio" name="gender_field" value="female"> Female
+				<input type="radio" name="gender_field" value="male"> Male<br>
+				<input type="radio" name="gender_field" value="female"> Female<br>
 			</label>
 			<label>
-			Age:
+			Age: <br>
 			<select name="age_field">
 				<option value="under 18">under 18</option>
 				<option value="18-24">18-24</option>
@@ -45,27 +45,24 @@
 		</fieldset>
 		<fieldset>
 			<legend>
-				My Availability
+				<strong>My Availability</strong><br>
 			</legend>
 			<label>
 				Days Available: 
-				<input type="checkbox" name="available_field[]" value="Sunday"> Sunday
-				<input type="checkbox" name="available_field[]" value="Monday"> Monday
-				<input type="checkbox" name="available_field[]" value="Tuesday"> Tuesday
-				<input type="checkbox" name="available_field[]" value="Wednesday"> Wednesday
-				<input type="checkbox" name="available_field[]" value="Thursday"> Thursday
-				<input type="checkbox" name="available_field[]" value="Friday"> Friday
-				<input type="checkbox" name="available_field[]" value="Saturday"> Saturday
+				<input type="checkbox" name="available_field[]" value="Sunday"> Sunday<br>
+				<input type="checkbox" name="available_field[]" value="Monday"> Monday<br>
+				<input type="checkbox" name="available_field[]" value="Tuesday"> Tuesday<br>
+				<input type="checkbox" name="available_field[]" value="Wednesday"> Wednesday<br>
+				<input type="checkbox" name="available_field[]" value="Thursday"> Thursday<br>
+				<input type="checkbox" name="available_field[]" value="Friday"> Friday<br>
+				<input type="checkbox" name="available_field[]" value="Saturday"> Saturday<br>
 			</label>
 			<label>
-				Any comments?
-				<textarea "comments_field" cols="20" rows="20">Text Area</textarea>
+				Any comments?<br>
+				<textarea "comments_field" cols="20" rows="20">Text Area</textarea><br>
 				<input type="hidden" name="hidden_field" value="ahyder2">
 			</label>
-			<label>
-				Send Me
-				<input type="submit" value="Send Me">
-			</label>
 		</fieldset>
+		<input type="submit" value="Send Me">
 </body>
 </html>
